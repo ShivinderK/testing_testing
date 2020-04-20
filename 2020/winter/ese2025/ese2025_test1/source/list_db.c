@@ -23,8 +23,8 @@ stuLL_t* createNodeLinkedList(void)
 	//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
 
 	stuLL_t *stud_t; //*creating a pointer first *//
-	stud_t = (stud_t*) malloc (sizeof (stuLL_t));
-	stuLL_t -> pNext = NULL;
+	stud_t = (stuLL_t*) malloc (sizeof (stuLL_t));
+	stud_t -> pNext = NULL;
 	return stud_t;
 
 }

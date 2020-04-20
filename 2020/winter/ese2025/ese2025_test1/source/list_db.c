@@ -21,7 +21,15 @@ stuLL_t* createNodeLinkedList(void)
 {
 	// PROBLEM #1: complete the code for this function
 	//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
+
+	stuLL_t *stud_t; //*creating a pointer first *//
+	stud_t = (stud_t*) malloc (sizeof (stuLL_t));
+	stuLL_t -> pNext = NULL;
+	return stud_t;
+
 }
+
+
 
 /*
  * function adds a node to an existing list

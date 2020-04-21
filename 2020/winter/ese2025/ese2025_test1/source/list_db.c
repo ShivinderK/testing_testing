@@ -102,7 +102,7 @@ stuLL_t* findLinkedList(stuLL_t *pHEAD, char *targetFamilyName)
 		{
 			// PROBLEM #2: complete the code for this function
 			//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
-			current = current -> next; //key will be equal to the key being searched return TRUE
+		   pW = pW -> pNext; //key will be equal to the key being searched return TRUE
 
 		}
 		printf("\n");

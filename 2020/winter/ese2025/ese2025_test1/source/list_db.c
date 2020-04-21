@@ -102,6 +102,8 @@ stuLL_t* findLinkedList(stuLL_t *pHEAD, char *targetFamilyName)
 		{
 			// PROBLEM #2: complete the code for this function
 			//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
+			current = current -> next;
+
 		}
 		printf("\n");
 	}
